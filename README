@@ -1,0 +1,21 @@
+
+
+
+The first file created has two parts.
+
+The first part is meant to be read by other programs.
+It's easy to parse.
+
+The second part has well aligned columns.
+It's easier to read.
+
+
+--------------------------------------------
+Arguments
+--config <config_fname>
+--new_app_files <0|1>
+  - If 0, don't create new app files.
+  - If 1, overwrite any old app files.
+
+
+

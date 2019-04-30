@@ -315,7 +315,7 @@ if f34_mode == 'w':
   f3.write(line+'\n')
 
 line = track_ims_vidname
-line += ' {0:0.6f}'.format(speed[i])
+line += ' {0:0.6f}'.format(mean_speed)
 f3.write(line+'\n')
 
 
@@ -328,7 +328,7 @@ if f34_mode == 'w':
   f4.write(line+'\n')
 
 line = track_ims_vidname
-line += '  {0:12.6f}'.format(speed[i])
+line += '  {0:12.6f}'.format(mean_speed)
 f4.write(line+'\n')
 
 
